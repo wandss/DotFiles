@@ -1,0 +1,4 @@
+#!/bin/bash
+export DJANGO_SETTINGS_MODULE=djangoApp.settings.dev #path
+export SECRET_KEY=stupidKeyForDevOnly
+# Export any other configuration
