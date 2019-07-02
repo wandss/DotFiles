@@ -8,6 +8,7 @@ NUM_WORKERS=4
 DJANGO_SETTINGS_MODULE=DJANGOPROJECTNAME.settings.prd
 DJANGO_WSGI_MODULE=DJANGOPROJECTNAME.wsgi
 SECRET_KEY='whereverSecretKey'
+#SECRET_KEY=exec python3.6 -c 'import secrets; print(secrets.token_hex(32))'
 TIMEOUT=5000
 
 echo "Starting $NAME as `whowami`"
