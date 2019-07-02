@@ -1,0 +1,4 @@
+VUE_APP_BUILD_PATH=../path/to/djangoApp/static
+VUE_APP_INDEX_FILE=../path/to/djangoApp/template/index.html
+VUE_APP_PLUBLIC_DIR=/static/
+VUE_APP_API_ROOT=http://someaddress:port/api/v1
